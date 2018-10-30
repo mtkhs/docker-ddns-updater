@@ -1,0 +1,6 @@
+ipcheck_url: https://ipinfo.io/ip
+update_list:
+- current_ip: 0.0.0.0
+  name: myddns
+  params: { domain: orz.hm, password: changeme, username: changeme, updatehost: 1 }
+  uri: https://ieserver.net/cgi-bin/dip.cgi
