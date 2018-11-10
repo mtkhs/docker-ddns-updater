@@ -6,7 +6,5 @@ RUN apk add --update --no-cache tzdata \
 
 ENV TZ='Asia/Tokyo'
 
-COPY crontab /var/spool/cron/crontabs/root
-
 CMD [ "/usr/sbin/crond", "-f", "-d", "8" ]
 

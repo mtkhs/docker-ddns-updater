@@ -1,0 +1,2 @@
+crond: USER root pid  15 cmd cd /workspace; /usr/bin/python ./ddns-updater.py
+crond: USER root pid  16 cmd echo "test2" > /tmp/foobar.log 2>&1

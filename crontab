@@ -1,2 +1,2 @@
-2-57/10 * * * * cd /workspace; /usr/bin/python ./ddns-updater.py
+*/5 * * * * cd /workspace; /usr/bin/python ./ddns-updater.py
 
